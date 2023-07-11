@@ -4,62 +4,62 @@ import avatarImage from '../../assets/images/avatar.jpg';
 const Main = () => {
 	return (
 		<main>
-			<div class="container">
-				<article class="card">
-					<div class="card__image">
-						<div class="card__image-inner">
+			<div className="container">
+				<article className="card">
+					<div className="card__image">
+						<div className="card__image-inner">
 							<img src={drawersImage} alt="" />
 						</div>
 					</div>
-					<div class="card__content">
-						<h2 class="card__title">
+					<div className="card__content">
+						<h2 className="card__title">
 							Shift the overall look and feel by adding these
 							wonderful touches to furniture in your home
 						</h2>
-						<p class="card__desc">
+						<p className="card__desc">
 							Ever been in a room and felt like something was
 							missing? Perhaps it felt slightly bare and
 							uninviting. I've got some simple tips to help you
 							make any room feel complete.
 						</p>
-						<div class="card__author">
-							<div class="card__author-img-box">
+						<div className="card__author">
+							<div className="card__author-img-box">
 								<img
-									class="card__author-img"
+									className="card__author-img"
 									width="40"
 									height="40"
 									src={avatarImage}
 									alt="Michelle Appleton"
 								/>
 							</div>
-							<div class="card__author-info">
-								<h3 class="card__author-name">
+							<div className="card__author-info">
+								<h3 className="card__author-name">
 									Michelle Appleton
 								</h3>
-								<p class="card__author-post-date">
+								<p className="card__author-post-date">
 									28 Jun 2020
 								</p>
 							</div>
 						</div>
-						<div class="card__share">
+						<div className="card__share">
 							<input
 								type="checkbox"
 								name="toggle"
 								id="share-toggle"
-								class="card__share-checkbox"
+								className="card__share-checkbox"
 							/>
-							<div class="card__share-box">
-								<div class="card__share-action">
-									<span class="card__share-action-txt">
+							<div className="card__share-box">
+								<div className="card__share-action">
+									<span className="card__share-action-txt">
 										Share
 									</span>
-									<ul class="card__share-action-buttons">
+									<ul className="card__share-action-buttons">
 										<li>
 											<a
 												href="#/"
 												title="Share on facebook">
 												<i
-													class="icon-facebook"
+													className="icon-facebook"
 													aria-hidden="true"></i>
 											</a>
 										</li>
@@ -68,7 +68,7 @@ const Main = () => {
 												href="#/"
 												title="Share on twitter">
 												<i
-													class="icon-twitter"
+													className="icon-twitter"
 													aria-hidden="true"></i>
 											</a>
 										</li>
@@ -77,15 +77,15 @@ const Main = () => {
 												href="#/"
 												title="Share on pinterest">
 												<i
-													class="icon-pinterest"
+													className="icon-pinterest"
 													aria-hidden="true"></i>
 											</a>
 										</li>
 									</ul>
 								</div>
 								<label
-									for="share-toggle"
-									class="btn btn--icon btn--share-toggle">
+									htmlFor="share-toggle"
+									className="btn btn--icon btn--share-toggle">
 									<svg
 										xmlns="http://www.w3.org/2000/svg"
 										width="15"
