@@ -1,6 +1,6 @@
-@use '../abstracts/variables' as var;
-@use '../abstracts/functions' as func;
-@use '../abstracts/mixins' as mix;
+@use '../../assets/scss/abstracts/variables' as var;
+@use '../../assets/scss/abstracts/functions' as func;
+@use '../../assets/scss/abstracts/mixins' as mix;
 
 .card {
 	@include mix.flexbox;
